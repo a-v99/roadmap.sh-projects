@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav ul li {
+    padding: 10px;
+}
