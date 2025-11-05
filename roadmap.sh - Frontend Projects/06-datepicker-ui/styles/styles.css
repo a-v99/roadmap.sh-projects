@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(../../assets/nature-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+
+.datepicker {
+    align-items: center;
+}
+
+.datepicker input {
+    text-align: center;
+    width: 75%;
+}
+
+.datepicker button {
+    position: relative;
+    right: 35px;
+    top: 2px;
+}
+
+.calendar-header {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 35%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.calendar-header button {
+    padding: 3px;
+}
+
+.month-year {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+#date-input {
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.weekdays span {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.days span {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.days span:hover {
+    background-color: hsl(0, 0%, 50%);
+    color: white;
+}
