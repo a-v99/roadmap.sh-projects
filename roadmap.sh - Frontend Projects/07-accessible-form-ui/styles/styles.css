@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    outline: 1px solid black;
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    width: 500px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input {
+    margin: 5px;
+    height: 32px;
+    width: 90%;
+}
+
+input:focus {
+    outline: 2px solid black;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+}
+
+input[aria-invalid="true"] {
+    border: 2px solid red;
+}
+
+input:invalid + .error-message {
+    display: block;
+}
+
+.show-pw-btn {
+    position: relative;
+    right: 40px;
+}
+
+.update-profile-btn {
+    padding: 5px;
+    width: 50%;
+    margin: 10px 90px;
+    border-radius: 20px;
+}
+
+.update-profile-btn:hover {
+    background-color: rgb(176, 176, 176);
+}
+
+.update-profile-btn:focus {
+    outline: 1px solid black;
+}
+
+.progress-container {
+    height: 20px;
+    background: white;
+    outline: 1px solid black;
+    overflow: hidden;
+    margin: 10px 0 10px 5px;
+    width: 90%;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: right;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.form-footer {
+    background-color: rgb(220, 218, 218);
+    padding: 5px 0 5px 25px;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
