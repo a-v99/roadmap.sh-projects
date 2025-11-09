@@ -12,3 +12,4 @@
 08 [Image Grid Layout](https://roadmap.sh/projects/image-grid)  
 09 [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)  
 10 [Tabs](https://roadmap.sh/projects/simple-tabs)  
+11 [Cookie Consent](https://roadmap.sh/projects/cookie-consent)  

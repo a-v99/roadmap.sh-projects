@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.cookie-container {
+    background-color: hsl(192, 55%, 80%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    box-shadow: 0 5px 10px;
+    max-width: 350px;
+}
+
+.cookie-container svg {
+    float: left;
+}
+
+.cookie-content span {
+    float: left;
+    padding: 0 20px 0 5px;
+}
+
+.cookie-content p {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.cookie-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 60%;
+    cursor: pointer;
+}
+
+.close {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.close:hover {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.close:active {
+    background-color: hsl(0, 0%, 60%);
+}
+.accept {
+    background-color: hsl(192, 55%, 50%);
+    color: white;
+}
+
+.accept:hover {
+    background-color: hsl(192, 55%, 35%);
+}
+
+.accept:active {
+    background-color: hsl(192, 55%, 20%);
+}
