@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tabs {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.tab-links {
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-link {
+    background-color: hsl(247, 70%, 49%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+}
+
+.tab-link:hover {
+    background: hsl(247, 70%, 29%);
+}
+
+.tab-link.active {
+    border: none;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: hsl(247, 70%, 49%);
+    color: white;
+    border-radius: 0px 10px 10px 10px;
+}
