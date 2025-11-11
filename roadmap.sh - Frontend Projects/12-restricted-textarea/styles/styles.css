@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    margin-top: 40px;
+    width: fit-content;
+    position: relative;
+    display: inline-block;
+}
+
+.textarea {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+/* Removes browser's default focus outline interference */
+.textarea:focus {
+    outline: none;
+}
+
+#charCount {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.textarea.limit-reached,
+.textarea.limit-reached:focus {
+    border: 1px solid red;
+    color: red;
+}
