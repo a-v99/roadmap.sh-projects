@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 30px;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.accordion-container {
+    width: 470px;   
+}
+
+.panel-btn {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 30%);
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+
+span {
+    position: absolute;
+    left: 475px;
+}
+
+.panel-body {
+    outline: 1px solid hsl(0, 0%, 0%);
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
+}
