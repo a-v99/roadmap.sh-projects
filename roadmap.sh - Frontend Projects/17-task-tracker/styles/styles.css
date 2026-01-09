@@ -1,0 +1,101 @@
+* {
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: hsl(0, 12%, 18%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 75vw;
+}
+
+form, li {
+    min-width: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid hsl(0, 0%, 83%);
+    overflow-wrap: anywhere;
+}
+
+li span {
+    overflow-wrap: anywhere;
+    min-width: none;
+    cursor: pointer;
+}
+
+li.completed span{
+    color: hsl(0, 0%, 50%);
+    text-decoration: line-through;
+}
+
+li input[type="checkbox"] {
+    accent-color: hsl(0, 15%, 45%);
+    margin-right: 10px;
+    cursor: pointer;
+    transform: scale(1.3);
+    transform-origin: left center;
+}
+
+li button {
+    margin-left: auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1em;
+    padding-top: 5px;
+}
+
+li button:hover {
+    background-color: hsl(0, 9%, 46%);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    position: relative;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px 50px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    min-width: none;
+}
+
+form button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: hsl(0, 9%, 46%);
+    height: 30px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+form button:hover {
+    background: hsl(0, 12%, 18%);
+}
